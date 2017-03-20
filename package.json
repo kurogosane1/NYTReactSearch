@@ -10,6 +10,10 @@
   "author": "Syed Saad Khurshid",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.1",
+    "morgan": "^1.8.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-router": "^2.4.1"
