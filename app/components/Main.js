@@ -1,4 +1,5 @@
-
+var Search = require("./children/search.js");
+var Saved = require("./children/savedArticles.js");
 var React = require("react");
 
 var Main = React.createClass({

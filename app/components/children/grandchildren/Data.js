@@ -1,6 +1,6 @@
 const React = require("react");
 
-var Query = React.createClass({
+var Data = React.createClass({
 	//delete button to remove document from the collection
 	deleteBtn: function(){
 		$.ajax({url: "/api/saved/" + this.props.id, type: 'DELETE', success: (result)	=> {
@@ -47,4 +47,4 @@ var Query = React.createClass({
 	}
 });
 
-module.exports = Query;
+module.exports = Data;
